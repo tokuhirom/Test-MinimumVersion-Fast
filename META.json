@@ -62,5 +62,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/tokuhirom/Test-MinimumVersion-Fast/issues"
+      },
+      "homepage" : "https://github.com/tokuhirom/Test-MinimumVersion-Fast",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tokuhirom/Test-MinimumVersion-Fast.git",
+         "web" : "https://github.com/tokuhirom/Test-MinimumVersion-Fast"
+      }
+   },
    "version" : "0.01"
 }
