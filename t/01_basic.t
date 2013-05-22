@@ -2,13 +2,15 @@ use strict;
 use warnings;
 use utf8;
 use Test::Tester;
-use Test::More tests => 8;
+use Test::More tests => 9;
 use File::Temp;
 use Test::MinimumVersion::Fast;
 
 my $tmp = File::Temp->new(UNLINK => 1);
-print {$tmp} '...';
+$tmp->print("...\n");
+$tmp->flush;
  
+isnt(-s $tmp, 0);
 minimum_version_ok($tmp->filename, '5.012');
  
 check_test(
@@ -23,3 +25,4 @@ check_test(
   "successful comparison"
 );
 
+close $tmp;
