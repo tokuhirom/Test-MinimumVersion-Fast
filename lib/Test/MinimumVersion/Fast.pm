@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use parent 'Exporter';
 
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 
 use File::Find::Rule;
 use File::Find::Rule::Perl;
