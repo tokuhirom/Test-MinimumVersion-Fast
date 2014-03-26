@@ -2,6 +2,10 @@ Revision history for Perl extension Test-MinimumVersion-Fast
 
 {{$NEXT}}
 
+0.04 2014-03-26T03:01:38Z
+
+    - Depended on latest P::MV::F.
+
 0.03 2013-09-04T07:18:57Z
 
     - Fixed deps

@@ -10,7 +10,7 @@ Test::MinimumVersion::Fast - does your code require newer perl than you think?
 
 # DESCRIPTION
 
-Test::MinimumVersion::Fast is a faster implementation of [Test::MinimumVersion](http://search.cpan.org/perldoc?Test::MinimumVersion) using [Perl::MinimumVersion::Fast](http://search.cpan.org/perldoc?Perl::MinimumVersion::Fast).
+Test::MinimumVersion::Fast is a faster implementation of [Test::MinimumVersion](https://metacpan.org/pod/Test::MinimumVersion) using [Perl::MinimumVersion::Fast](https://metacpan.org/pod/Perl::MinimumVersion::Fast).
 
 # LICENSE
 
