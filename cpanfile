@@ -1,5 +1,6 @@
 requires 'perl', '5.008001';
-requires 'Perl::MinimumVersion::Fast', 0.11;
+
+requires 'Perl::MinimumVersion::Fast', 0.14;
 requires 'File::Find::Rule';
 requires 'File::Find::Rule::Perl';
 requires 'Test::Builder';
