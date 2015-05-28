@@ -131,7 +131,7 @@ Test::MinimumVersion::Fast - does your code require newer perl than you think?
 =head1 SYNOPSIS
 
     #!perl
-    use Test::MinimumVersion;
+    use Test::MinimumVersion::Fast;
     all_minimum_version_from_metayml_ok();
 
 =head1 DESCRIPTION
